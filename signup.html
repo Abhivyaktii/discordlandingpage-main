@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord | Signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="./images/847541504914fd33810e70a0ea73177e.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/signup.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./images/logo.png" style="
+            width: 124px;
+            height: 34px;
+        " alt="Discord logo">
+        </div>
+        
+        <form id="form" action="./product.html" onsubmit="event.preventDefault()">
+            <h1 id="created">Create An Account</h1>
+            <div class="input-control">
+                <label for="username">First Name</label>
+                <input id="firstname" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="username">Last Name</label>
+                <input id="lastname" name="username" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Retype Password </label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="terms">
+                <label for="terms"><input id="termsbtn" type="checkbox" name="terms">
+                    I have read and agree to Discord's
+                    <div class="error"></div>
+                </label>
+            </div>
+
+            <button id="btnsignup" type="submit"> Sign Up</button>
+        </form>
+
+    </div>
+
+    <div class="product" id="product">
+        <p>Take a look at our <a href="./product.html">collections</a> </p>
+        <!-- <a href="./product.html"><button class="products">Prodcut</button></a> -->
+    </div>
+    <script defer src="./index.js"></script>
+</body>
+
+</html>

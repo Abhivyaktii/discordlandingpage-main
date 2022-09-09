@@ -1,0 +1,103 @@
+body {
+    background: url("../images/background2.svg");
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#form {
+    width: 320px;
+    margin: 3vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#btnsignup {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.error {
+    padding: 5px;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.input-control label {
+    padding-bottom: 10px;
+}
+
+.terms label {
+
+    color: black !important;
+    font-size: 12px !important;
+}
+
+.terms .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.product {
+    display: flex;
+    margin:  20px auto ;
+    display: none;
+    background-color:  rgb(255, 255, 255);
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.product a{
+    color: #404eed;
+    font-size: 20px;
+}
